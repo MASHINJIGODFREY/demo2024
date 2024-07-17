@@ -1,0 +1,20 @@
+{
+    "Language": "Langue",
+    "Login": "Se connecter",
+    "Register": "Registre",
+    "Logout": "Se déconnecter",
+    "Dashboard": "Tableau de bord",
+    "You are logged in!": "Vous êtes authentifié!",
+    "Go to Todo list...": "Aller à la liste Todo...",
+    "Todo List": "Liste de choses à faire",
+    "Back": "Dos",
+    "Create": "Créer",
+    "Task Name": "Nom de la tâche",
+    "Description": "Description",
+    "Due Date": "Date d'échéance",
+    "Action": "Action",
+    "Update": "Mise à jour",
+    "Delete": "Supprimer",
+    "Add Todo": "Ajouter une tâche",
+    "Update Todo": "Mettre à jour la tâche"
+}

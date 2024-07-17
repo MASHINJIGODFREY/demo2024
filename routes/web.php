@@ -11,6 +11,12 @@ Auth::routes();
 //homepage todo route
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::get('lang/{locale}', function ($locale) {
+    app()->setLocale($locale);
+    session()->put('locale', $locale);
+    return redirect()->back();
+})->name('language');
+
 Route::prefix('todos')->group(function () {
 
     //homepage todo route

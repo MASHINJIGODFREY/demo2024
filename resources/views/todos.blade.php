@@ -7,7 +7,7 @@
             <div class="card">
                 <div class="card-header d-flex justify-content-between align-items-center">
                     <h5 class="mb-0">{{ __('Todo List') }}</h5>
-                    <a href="{{route('todo.create')}}" class="btn btn-primary btn-sm">Create</a>
+                    <a href="{{route('todo.create')}}" class="btn btn-primary btn-sm">{{ __('Create') }}</a>
                 </div>
 
                 <div class="card-body">
@@ -19,10 +19,10 @@
 
                     <table class="table table-stripped table-dark">
                         <tr>
-                            <th>Task Name</th>
-                            <th>Description</th>
-                            <th>Due date</th>
-                            <th>Action</th>
+                            <th>{{ __('Task Name') }}</th>
+                            <th>{{ __('Description') }}</th>
+                            <th>{{ __('Due Date') }}</th>
+                            <th>{{ __('Action') }}</th>
                         </tr>
                         @foreach($todos as $todo)
                             <tr valign="middle">
@@ -30,8 +30,8 @@
                                 <td>{{$todo->work}}</td>
                                 <td>{{$todo->duedate}}</td>
                                 <td>
-                                    <a href="{{route('todo.edit',$todo->id)}}" class="btn btn-success btn-sm">Update</a>
-                                    <a href="{{route('todo.delete',$todo->id)}}" class="btn btn-danger btn-sm">Delete</a>
+                                    <a href="{{route('todo.edit',$todo->id)}}" class="btn btn-success btn-sm">{{ __('Update') }}</a>
+                                    <a href="{{route('todo.delete',$todo->id)}}" class="btn btn-danger btn-sm">{{ __('Delete') }}</a>
                                 </td>
                             </tr>
                         @endforeach        

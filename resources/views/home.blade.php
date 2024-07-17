@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}&nbsp;&nbsp;<a href="{{route('todo.home')}}" class="btn btn-success btn-sm">Go to Todo list...</a>
+                    {{ __('You are logged in!') }}&nbsp;&nbsp;<a href="{{route('todo.home')}}" class="btn btn-success btn-sm">{{ __('Go to Todo list...') }}</a>
                 </div>
             </div>
         </div>
