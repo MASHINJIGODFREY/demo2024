@@ -1,6 +1,6 @@
 # Todo List Manager
 
-Todo List Manager is a Task Manager built on Laravel 11 with Email Registration and friendly user interface that is deigned to make it easier to manage your daily schedules securely online.
+Todo List Manager is a Task Manager built on Laravel 11 and Bootstrap 5, embedded with Email Registration and a friendly user interface that is designed to simplify the management of your daily schedules securely online.
 
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
