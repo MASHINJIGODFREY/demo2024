@@ -23,8 +23,6 @@ Todo List Manager is a Task Manager built on Laravel 11 with Email Registration 
 
 Contributions are always welcome!.
 
-<<<<<<< HEAD
-=======
 
 ## Roadmap
 
@@ -34,4 +32,3 @@ Contributions are always welcome!.
 
 - Add Schedule Notifications
 
->>>>>>> cbf5e546529cd50782560ca3d543d20c231374f5
