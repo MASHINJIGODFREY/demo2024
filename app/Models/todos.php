@@ -17,7 +17,7 @@ class todos extends Model
     protected $table='todos';
 
     /**
-     * The primary key associated with the table.
+     * The table set as primary key.
      *
      * @var string
      */
